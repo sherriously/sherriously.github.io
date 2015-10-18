@@ -20,7 +20,6 @@ $(function() {
       if (firstName.indexOf(' ') >= 0) {
         firstName = name.split(' ').slice(0, -1).join(' ');
       }
-      debuger
       $.ajax({
         url: "//formspree.io/me@sherriously.com",
         method: "POST",
