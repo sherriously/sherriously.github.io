@@ -289,7 +289,7 @@ section h2 {
 }
 section.success {
   color: ##323232;
-  background: #f7f7f7;
+  background: #fff;
 }
 section.success a, section.success a:hover, section.success a:focus, section.success a:active, section.success a.active {
   outline: 0;
@@ -302,6 +302,16 @@ section.success a, section.success a:hover, section.success a:focus, section.suc
   section.first {
     padding-top: 75px;
   }
+}
+
+section#portfolio, #contact {
+  background: #f7f7f7;
+}
+section#experience p {
+  margin-bottom: 30px;
+}
+section#experience h4 {
+  margin: 0;
 }
 
 /* - LIST STYLING
@@ -520,6 +530,9 @@ button {
   color: #fff;
   text-align: center;
 }
+  a .btn-social:hover {
+    color: #18bc9c;
+  }
 
 /* - FOOTER STYLING
 -------------------------------------------------------------- */
@@ -539,6 +552,9 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background-color: #233140;
+}
+footer .list-inline {
+  margin: 10px 0;
 }
 .scroll-top {
   z-index: 1049;
